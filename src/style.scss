@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #000000;
+  --red: #FF0000;
+  --orange: #ff9a00;
+}
+
+.card {
+  height: 200px;
+  width: 120px;
+  padding: 5px;
+  border-radius: 3px;
+
+  &__list {
+    display: flex;
+    column-gap: 25px;
+
+    &> div {
+      display: flex;
+      flex-direction: column;
+      row-gap: 5px;
+    }
+  }
+
+  &__heart > div {
+    border: 2px var(--red) solid;
+  }
+
+  &__spade > div {
+    border: 2px var(--black) solid;
+  }
+
+  &__diamond > div {
+    border: 2px var(--orange) solid;
+  }
+
+  &__club > div {
+    border: 2px var(--black) solid;
+  }
+}
