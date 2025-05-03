@@ -9,35 +9,15 @@
 }
 
 .card {
-  height: 200px;
+  height: 170px;
   width: 120px;
   padding: 5px;
   border-radius: 3px;
+  border: 2px var(--black) solid;
 
   &__list {
     display: flex;
-    column-gap: 25px;
-
-    &> div {
-      display: flex;
-      flex-direction: column;
-      row-gap: 5px;
-    }
-  }
-
-  &__heart > div {
-    border: 2px var(--red) solid;
-  }
-
-  &__spade > div {
-    border: 2px var(--black) solid;
-  }
-
-  &__diamond > div {
-    border: 2px var(--orange) solid;
-  }
-
-  &__club > div {
-    border: 2px var(--black) solid;
+    flex-wrap: wrap;
+    gap: 50px 10px;
   }
 }
