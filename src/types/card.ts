@@ -1,4 +1,4 @@
-export interface Card {
+export interface CardType {
     id: number;
     rank: string; // Туз ('A'), Король ('K'), etc.
     suit: string; // Черви ('Hearts), Пики ('Spades'), etc.
