@@ -8,16 +8,8 @@
   --orange: #ff9a00;
 }
 
-.card {
-  height: 170px;
-  width: 120px;
-  padding: 5px;
-  border-radius: 3px;
-  border: 2px var(--black) solid;
-
-  &__list {
+.card__list {
     display: flex;
     flex-wrap: wrap;
     gap: 50px 10px;
-  }
 }

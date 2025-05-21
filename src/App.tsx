@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { CardType } from './types/card'
+import CardItem from './components/CardItem/CardItem'
 import './style.scss'
-import CardItem from './components/CardItem'
 
 function App() {
 
